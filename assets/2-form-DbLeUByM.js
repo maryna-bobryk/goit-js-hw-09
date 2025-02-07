@@ -1,0 +1,5 @@
+const s="feedback-form-state",r={formElem:document.querySelector(".feedback-form")};//!================================================================
+r.formElem.addEventListener("input",e=>{const t=e.currentTarget.elements.email.value.trim(),a=e.currentTarget.elements.message.value.trim();o(s,{email:t,message:a})});function n(){const e=l(s);r.formElem.elements.email.value=(e==null?void 0:e.email)||"",r.formElem.elements.message.value=(e==null?void 0:e.message)||""}n();//!================================================================
+r.formElem.addEventListener("submit",e=>{e.preventDefault();const t=e.currentTarget.elements.email.value,a=e.currentTarget.elements.message.value,m={email:t,message:a};if(!t||!a){alert("Please fill in all form fields before submitting.");return}console.log(m),e.target.reset(),localStorage.removeItem(s)});//!================================================================
+function o(e,t){const a=JSON.stringify(t);localStorage.setItem(e,a)}function l(e){const t=localStorage.getItem(e);try{return JSON.parse(t)}catch{return t}}
+//# sourceMappingURL=2-form-DbLeUByM.js.map
