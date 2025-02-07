@@ -1,8 +1,8 @@
 .feedback-form {
   box-sizing: border-box;
-  max-width: 408px; /* Maximalbreite auf 408px setzen */
-  width: 100%; /* Das Formular nimmt bis zu 100% der Breite ein, aber nicht mehr als 408px */
-  box-sizing: border-box; /* Damit Padding und Border korrekt berechnet werden */
+  max-width: 408px;
+  width: 100%;
+  box-sizing: border-box;
   padding: 24px;
   margin-top: 50px;
   margin-bottom: 40px;
@@ -28,6 +28,11 @@
   padding: 8px 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 
 .form-input:hover,
@@ -40,12 +45,18 @@
   box-sizing: border-box;
   width: 360px;
   height: 80px;
-  padding: 8px, 16px;
+  padding: 8px 16px;
 
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-bottom: 16px;
   resize: none;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 .form-textarea:hover,
 .form-textarea:focus {
@@ -54,11 +65,12 @@
 }
 
 .form-button {
+  font-family: 'Montserrat', sans-serif;
   display: block;
   width: 95px;
   height: 40px;
   border-radius: 8px;
-  padding: 8px 16px;
+  /* padding: 8px 16px; */
   width: 86px;
   height: 40px;
 
