@@ -1,0 +1,1 @@
+{"version":3,"file":"2-form-sHxgL1Ky.js","sources":["../../src/js/2-form.js"],"sourcesContent":["const ref = {\n  formElem: document.querySelector('.feedback-form'),\n  BbtnElem: document.querySelector('.form-button'),\n};\n"],"names":[],"mappings":"AACY,SAAS,cAAc,gBAAgB,EACvC,SAAS,cAAc,cAAc"}
